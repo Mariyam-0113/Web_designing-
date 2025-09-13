@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alerts Example</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #f9f9f9, #e0e0e0);
+    }
+
+    .alert {
+      margin: 12px 0;
+      padding: 14px 18px;
+      border-radius: 6px;
+      font-size: 15px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid transparent;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .alert.success {
+      background-color: #e8fbee;
+      color: #1f7a3a;
+      border-color: #1f7a3a;
+    }
+
+    .alert.error {
+      background-color: #fdeaea;
+      color: #b32121;
+      border-color: #b32121;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="alert success">
+    ✅ Payment completed successfully.
+  </div>
+
+  <div class="alert error">
+    ❌ Error: Please try again later.
+  </div>
+
+</body>
+</html>
